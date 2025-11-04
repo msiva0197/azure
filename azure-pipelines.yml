@@ -2,7 +2,7 @@ trigger:
 - main   # runs on changes pushed to main branch
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - script: echo "Hello Azure Pipeline! Your setup works 🎉"
